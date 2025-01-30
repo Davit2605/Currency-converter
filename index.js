@@ -4,7 +4,7 @@ const worthFirstEl = document.getElementById("worth-first");
 const worthSecondEl = document.getElementById("worth-second");
 const exchangeRateEl = document.getElementById("exchange-rate");
 getRate();
-function getRate() {
+functio getRate() {
   fetch(
     `https://v6.exchangerate-api.com/v6/bf9de5ed704785029475402e/latest/${currencyFirstEl.value}`
   )
